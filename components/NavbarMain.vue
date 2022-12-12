@@ -84,8 +84,6 @@
             </ul>
         </div>
     </nav>
-    <div class="h-[100rem]">test</div>
-    <div class="h-[100rem]">test</div>
 </template>
 
 <script setup>
