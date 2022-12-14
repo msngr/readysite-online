@@ -1,5 +1,7 @@
 <template>
     <NavbarMain />
+    <HeroMain />
+    <StepsMain />
 </template>
 
 <script setup></script>
