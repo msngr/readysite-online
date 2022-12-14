@@ -40,7 +40,7 @@
                     <NuxtLink
                         :to="link.to"
                         :class="link.style"
-                        class="relative xl:ml-5 2xl:ml-7 5xl:ml-12 my-2 flex items-center hover:text-sky-700 transition"
+                        class="relative xl:ml-5 2xl:ml-7 5xl:ml-12 my-2 flex items-center hover:text-sky-700 hover:shadow-sm rounded-sm transition"
                     >
                         <!-- Whatsapp SVG -->
                         <svg
