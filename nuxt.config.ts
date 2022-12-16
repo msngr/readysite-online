@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
     app: {
         head: {
+            htmlAttrs: {
+                // Todo: Add browser locale after internalization
+                lang: 'de',
+            },
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
             title: 'readysite.online',
