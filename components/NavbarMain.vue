@@ -1,6 +1,6 @@
 <template>
     <nav
-        class="z-40 fixed bg-white w-full max-w-5xl mx-auto flex flex-wrap items-center justify-between px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 shadow-md"
+        class="z-40 fixed bg-sky-50 w-full max-w-5xl mx-auto flex flex-wrap items-center justify-between px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 shadow-md"
     >
         <!-- Logo and Menu Container -->
         <div
@@ -9,30 +9,40 @@
             <!-- Logo -->
             <NuxtLink to="/">
                 <img
+                    title="readysite.online"
                     alt="readysite.online"
                     src="~/assets/images/logo.svg"
                     class="w-60 2xl:w-64 5xl:w-72"
+                    width="288"
+                    height="46"
                 />
             </NuxtLink>
-            <!-- Menu icon -->
-            <button
-                class="cursor-pointer xl:hidden"
-                type="button"
-                v-on:click="toggleNavbar()"
-            >
-                <svg class="w-7 text-sky-600" viewBox="0 0 24 24">
-                    <path
-                        fill="currentColor"
-                        d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z"
-                    />
-                </svg>
-            </button>
+            <div class="xl:hidden flex">
+                <!-- Language Button -->
+                <!-- <LanguageButton /> -->
+                <!-- Menu icon -->
+                <button
+                    title="Menü"
+                    class="cursor-pointer hover:shadow-md rounded-full transition"
+                    type="button"
+                    v-on:click="toggleNavbar()"
+                >
+                    <svg class="w-7 text-sky-600" viewBox="0 0 24 24">
+                        <path
+                            fill="currentColor"
+                            d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z"
+                        />
+                    </svg>
+                </button>
+            </div>
         </div>
         <!-- Links Container-->
         <div
             v-bind:class="{ hidden: !showMenu, flex: showMenu }"
             class="xl:flex xl:flex-grow items-center"
         >
+            <!-- Language Button -->
+            <!-- <LanguageButton /> -->
             <ul
                 class="flex flex-col xl:flex-row list-none 2xl:text-lg mt-4 xl:mt-0 ml-1.5 xl:ml-auto"
             >
@@ -40,6 +50,7 @@
                     <NuxtLink
                         :to="link.to"
                         :class="link.style"
+                        :title="link.title"
                         class="relative xl:ml-5 2xl:ml-7 5xl:ml-12 my-2 flex items-center hover:text-sky-700 hover:shadow-sm rounded-sm transition"
                     >
                         <!-- Whatsapp SVG -->
@@ -66,7 +77,8 @@
                     <!-- Facebook SVG -->
                     <a
                         href="https://www.facebook.com/"
-                        class="z-50 absolute left-16 top-[22.1rem] sm:left-[4.5rem] sm:top-[22.35rem] md:left-20 md:top-[22.6rem] xl:left-auto xl:right-[16.325rem] xl:top-[1.7275rem] 2xl:right-[17.6rem] 2xl:top-[1.8575rem] 5xl:right-[22.625rem] 5xl:top-[1.9375rem]"
+                        title="readysite.online auf Facebook besuchen"
+                        class="z-50 absolute left-16 top-[17.05rem] sm:left-[4.5rem] sm:top-[17.3rem] md:left-20 md:top-[17.55rem] xl:left-auto xl:right-[17.325rem] xl:top-[1.7275rem] 2xl:right-[18.6rem] 2xl:top-[1.8575rem] 5xl:right-[25.625rem] 5xl:top-[1.9375rem]"
                     >
                         <svg
                             v-if="link.name === 'Blog'"
@@ -88,8 +100,6 @@
 
 <script setup>
 const links = [
-    { name: 'Über readysite', to: '#' },
-    { name: 'Ablauf', to: '#' },
     { name: 'Website wählen', to: '#', style: 'font-medium text-sky-600' },
     { name: 'Leistungen', to: '#' },
     { name: 'Preise', to: '#' },
@@ -98,12 +108,13 @@ const links = [
     {
         name: 'Blog',
         to: '#',
-        style: 'font-medium xl:!ml-10 5xl:!ml-36 group',
+        style: 'font-medium xl:!ml-20 5xl:!ml-48 group !shadow-none',
     },
     {
         name: '+49 (0) 6041 22 999 00',
         to: 'tel:+49060412299900',
-        style: 'font-medium text-green-600 hover:!text-green-600 xl:!ml-16 5xl:!ml-36 hover:scale-105 transition',
+        style: 'font-medium text-green-600 hover:!text-green-600 xl:!ml-20 5xl:!ml-48 hover:scale-105 transition !shadow-none',
+        title: 'Rufen Sie uns an, wir rufen auch zurück!',
     },
 ]
 
