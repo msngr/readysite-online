@@ -100,11 +100,11 @@
 
 <script setup>
 const links = [
-    { name: 'Website wählen', to: '#', style: 'font-medium text-sky-600' },
+    { name: 'Website wählen', to: '#', style: 'font-medium text-sky-700' },
     { name: 'Leistungen', to: '#' },
     { name: 'Preise', to: '#' },
     { name: 'Fragen', to: '#' },
-    { name: 'Kontakt', to: '#', style: 'font-medium text-sky-600' },
+    { name: 'Kontakt', to: '#', style: 'font-medium text-sky-700' },
     {
         name: 'Blog',
         to: '#',
@@ -113,7 +113,7 @@ const links = [
     {
         name: '+49 (0) 6041 22 999 00',
         to: 'tel:+49060412299900',
-        style: 'font-medium text-green-600 hover:!text-green-600 xl:!ml-20 5xl:!ml-48 hover:scale-105 transition !shadow-none',
+        style: 'font-medium text-green-700 hover:!text-green-700 xl:!ml-20 5xl:!ml-48 hover:scale-105 transition !shadow-none',
         title: 'Rufen Sie uns an, wir rufen auch zurück!',
     },
 ]
