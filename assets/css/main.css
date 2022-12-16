@@ -9,6 +9,7 @@
     src: url('../fonts/roboto-regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
+    font-display: block;
 }
 
 @font-face {
@@ -16,10 +17,11 @@
     src: url('../fonts/roboto-500.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
+    font-display: block;
 }
 
 /* Document */
 html,
 body {
-    @apply relative scroll-smooth;
+    @apply relative overflow-x-hidden scroll-smooth;
 }
