@@ -1,28 +1,36 @@
 <template>
     <div
-        class="flex flex-wrap justify-center space-y-6 md:space-y-0 mt-8 md:mt-12 5xl:mt-6 xl:px-16"
+        class="flex flex-wrap justify-center space-y-6 md:space-y-0 mt-8 md:mt-12 5xl:mt-4 xl:px-16"
     >
         <!-- Step 1 -->
-        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div
+            class="p-10 md:w-1/3 flex flex-col text-center items-center shadow-lg max-w-[25rem] min-w-[19rem]"
+        >
             <svg class="w-28 text-sky-600 mb-5" viewBox="0 0 24 24">
+                <defs>
+                    <linearGradient id="Gradient1">
+                        <stop class="stop1" offset="0%" />
+                        <stop class="stop2" offset="100%" />
+                    </linearGradient>
+                </defs>
                 <path
-                    fill="currentColor"
+                    fill="url(#Gradient1)"
                     d="M10,7V9H12V17H14V7H10M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2Z"
                 />
             </svg>
             <div class="flex-grow">
                 <h2
-                    class="text-gray-900 text-2xl font-medium tracking-tight mb-4"
+                    class="text-gray-900 text-2xl 2xl:text-3xl font-medium tracking-tight mb-4"
                 >
                     Website bestellen
                 </h2>
-                <p class="text-gray-600 leading-7 text-lg">
+                <h3 class="text-gray-600 leading-7 text-lg">
                     Wählen Sie eine unserer fertigen Vorlagen aus und bezahlen
                     bequem per PayPal oder Kreditkarte.
-                </p>
+                </h3>
                 <a
-                    class="text-white text-lg font-medium inline-flex items-center bg-gradient-to-r from-sky-500 to-sky-700 rounded-full hover:from-sky-600 hover:to-sky-900 transition py-3 px-6 mt-7"
-                    href="#"
+                    class="text-white text-lg font-medium inline-flex items-center shadow-md bg-gradient-to-r from-sky-500 to-sky-700 rounded-full hover:from-sky-600 hover:to-sky-900 transition py-3 px-5 mt-7"
+                    href="/#Website_wählen"
                     >Website wählen
                     <svg
                         class="w-7 ml-2 -mb-1.5 animate-bounce"
@@ -37,26 +45,34 @@
             </div>
         </div>
         <!-- Step 2 -->
-        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div
+            class="p-10 md:w-1/3 flex flex-col text-center items-center shadow-md max-w-[25rem] min-w-[19rem]"
+        >
             <svg class="w-28 text-sky-600 mb-5" viewBox="0 0 24 24">
+                <defs>
+                    <linearGradient id="Gradient1">
+                        <stop class="stop1" offset="0%" />
+                        <stop class="stop2" offset="100%" />
+                    </linearGradient>
+                </defs>
                 <path
-                    fill="currentColor"
+                    fill="url(#Gradient1)"
                     d="M9,7H13A2,2 0 0,1 15,9V11A2,2 0 0,1 13,13H11V15H15V17H11L9,17V13A2,2 0 0,1 11,11H13V9H9V7M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
                 />
             </svg>
             <div class="flex-grow">
-                <h2
+                <p
                     class="text-gray-900 text-2xl font-medium tracking-tight mb-4"
                 >
                     Inhalte zusenden
-                </h2>
+                </p>
                 <p class="text-gray-600 leading-7 text-lg">
                     Senden Sie uns Ihre Bilder und Texte zu. Die einmalige
                     Einpflege Ihrer Inhalte ist im Preis inbegriffen.
                 </p>
                 <a
-                    class="text-sky-600 hover:text-white text-lg font-medium inline-flex items-center border border-sky-600 rounded-full hover:bg-gradient-to-r hover:from-sky-600 hover:to-sky-900 py-3 px-6 mt-7"
-                    href="#"
+                    class="text-sky-600 hover:text-white text-lg font-medium inline-flex items-center border border-sky-600 rounded-full hover:bg-gradient-to-r hover:from-sky-600 hover:to-sky-900 py-3 px-5 mt-7"
+                    href="/#Kontakt"
                     >Kontakt
                     <svg class="w-7 ml-2" viewBox="0 0 24 24">
                         <path
@@ -68,26 +84,34 @@
             </div>
         </div>
         <!-- Step 3 -->
-        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-            <svg class="w-28 text-sky-600 mb-5" viewBox="0 0 24 24">
+        <div
+            class="p-10 md:w-1/3 flex flex-col text-center items-center shadow-md max-w-[25rem] min-w-[19rem]"
+        >
+            <svg class="w-28 mb-5" viewBox="0 0 24 24">
+                <defs>
+                    <linearGradient id="Gradient1">
+                        <stop class="stop1" offset="0%" />
+                        <stop class="stop2" offset="100%" />
+                    </linearGradient>
+                </defs>
                 <path
-                    fill="currentColor"
+                    fill="url(#Gradient1)"
                     d="M15,15A2,2 0 0,1 13,17H9V15H13V13H11V11H13V9H9V7H13A2,2 0 0,1 15,9V10.5A1.5,1.5 0 0,1 13.5,12A1.5,1.5 0 0,1 15,13.5V15M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
                 />
             </svg>
             <div class="flex-grow">
-                <h2
+                <p
                     class="text-gray-900 text-2xl font-medium tracking-tight mb-4"
                 >
                     Website hosten
-                </h2>
+                </p>
                 <p class="text-gray-600 leading-7 text-lg">
                     Bringen Sie Ihre Website selbst online oder wählen Sie
                     unseren Hosting- und Betreuungsservice.
                 </p>
                 <a
-                    class="text-sky-600 hover:text-white text-lg font-medium inline-flex items-center border border-sky-600 rounded-full hover:bg-gradient-to-r hover:from-sky-600 hover:to-sky-900 py-3 px-6 mt-7"
-                    href="#"
+                    class="text-sky-600 hover:text-white text-lg font-medium inline-flex items-center border border-sky-600 rounded-full hover:bg-gradient-to-r hover:from-sky-600 hover:to-sky-900 py-3 px-5 mt-7"
+                    href="/#Leistungen"
                     >Unser Hosting
                     <svg class="w-5 ml-2" viewBox="0 0 24 24">
                         <path
@@ -100,7 +124,3 @@
         </div>
     </div>
 </template>
-
-<script setup></script>
-
-<style lang="scss" scoped></style>

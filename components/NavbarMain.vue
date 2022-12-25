@@ -7,23 +7,23 @@
             class="w-full relative flex justify-between xl:w-auto xl:static xl:block xl:justify-start"
         >
             <!-- Logo -->
-            <NuxtLink to="/">
+            <a href="/">
                 <img
                     title="readysite.online"
                     alt="readysite.online"
-                    src="~/assets/images/logo.svg"
+                    src="/images/readysite.online-logo.svg"
                     class="w-60 2xl:w-64 5xl:w-72"
                     width="288"
                     height="46"
                 />
-            </NuxtLink>
+            </a>
             <div class="xl:hidden flex">
                 <!-- Language Button -->
-                <!-- <LanguageButton /> -->
+                <LanguageButton />
                 <!-- Menu icon -->
                 <button
                     title="Menü"
-                    class="cursor-pointer hover:shadow-md rounded-full transition"
+                    class="cursor-pointer shadow-sm hover:shadow-lg rounded-full transition"
                     type="button"
                     v-on:click="toggleNavbar()"
                 >
@@ -42,13 +42,13 @@
             class="xl:flex xl:flex-grow items-center"
         >
             <!-- Language Button -->
-            <!-- <LanguageButton /> -->
+            <LanguageButton class="hidden xl:block" />
             <ul
                 class="flex flex-col xl:flex-row list-none 2xl:text-lg mt-4 xl:mt-0 ml-1.5 xl:ml-auto"
             >
                 <li v-for="link in links">
-                    <NuxtLink
-                        :to="link.to"
+                    <a
+                        :href="link.to"
                         :class="link.style"
                         :title="link.title"
                         class="relative xl:ml-5 2xl:ml-7 5xl:ml-12 my-2 flex items-center hover:text-sky-700 hover:shadow-sm rounded-sm transition"
@@ -73,12 +73,12 @@
                         >
                             |
                         </span>
-                    </NuxtLink>
+                    </a>
                     <!-- Facebook SVG -->
                     <a
                         href="https://www.facebook.com/"
                         title="readysite.online auf Facebook besuchen"
-                        class="z-50 absolute left-16 top-[17.05rem] sm:left-[4.5rem] sm:top-[17.3rem] md:left-20 md:top-[17.55rem] xl:left-auto xl:right-[17.325rem] xl:top-[1.7275rem] 2xl:right-[18.6rem] 2xl:top-[1.8575rem] 5xl:right-[25.625rem] 5xl:top-[1.9375rem]"
+                        class="z-50 absolute left-16 top-[14.55rem] sm:left-[4.5rem] sm:top-[14.8rem] md:left-20 md:top-[15.05rem] xl:left-auto xl:right-[17.325rem] xl:top-[1.7275rem] 2xl:right-[18.6rem] 2xl:top-[1.8575rem] 5xl:right-[25.625rem] 5xl:top-[1.9375rem]"
                     >
                         <svg
                             v-if="link.name === 'Blog'"
@@ -100,15 +100,18 @@
 
 <script setup>
 const links = [
-    { name: 'Website wählen', to: '#', style: 'font-medium text-sky-700' },
-    { name: 'Leistungen', to: '#' },
-    { name: 'Preise', to: '#' },
-    { name: 'Fragen', to: '#' },
-    { name: 'Kontakt', to: '#', style: 'font-medium text-sky-700' },
+    {
+        name: 'Website wählen',
+        to: '/#Website_wählen',
+        style: 'font-medium text-gradient hover:!text-transparent',
+    },
+    { name: 'Preise', to: '/#Preise' },
+    { name: 'Fragen', to: '/#Fragen' },
+    { name: 'Kontakt', to: '/#Kontakt' },
     {
         name: 'Blog',
-        to: '#',
-        style: 'font-medium xl:!ml-20 5xl:!ml-48 group !shadow-none',
+        to: '/blog',
+        style: 'xl:!ml-32 2xl:!ml-48 5xl:!ml-64 group !shadow-none',
     },
     {
         name: '+49 (0) 6041 22 999 00',

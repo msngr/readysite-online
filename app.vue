@@ -7,9 +7,28 @@
         <HeroMain />
         <!-- Website-/Template-Cards -->
         <CardsMain />
+        <!-- Pricing -->
+        <PricingMain />
     </div>
 </template>
 
-<script setup></script>
+<style lang="scss">
+// Text Gradient
+.text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-sky-600;
+}
 
-<style lang="scss" scoped></style>
+// SVG Gradient
+.stop1 {
+    stop-color: #0ea5e9;
+}
+
+.stop2 {
+    stop-color: #0284c7;
+}
+
+// H1 Headlines
+.headline {
+    line-height: 1.12;
+}
+</style>

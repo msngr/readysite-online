@@ -1,4 +1,3 @@
-<!-- Todo: Change locale to i18n locale -->
 <template>
     <button
         title="English/Deutsch"
@@ -12,9 +11,14 @@
 </template>
 
 <script setup>
+const locale = ref()
+
+onMounted(() => {
+    locale.value = localStorage.getItem('locale')
+})
+
 const changeLanguage = () => {
-    const locale = localStorage.getItem('locale')
-    if (locale === 'en') {
+    if (locale.value === 'en') {
         localStorage.setItem('locale', 'de')
     } else {
         localStorage.setItem('locale', 'en')
