@@ -3,25 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Fonts */
-@font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/roboto-regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: block;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/roboto-500.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-display: block;
-}
-
-/* Document */
-html,
-body {
-    @apply relative overflow-x-hidden scroll-smooth;
+span.anchor {
+    visibility: hidden;
+    display: block;
+    position: relative;
+    top: -71px;
 }
