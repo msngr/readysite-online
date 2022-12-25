@@ -15,6 +15,53 @@ export default defineNuxtConfig({
                     content: 'Get your ready website today!',
                 },
             ],
+            // preload
+            // link: [
+            //     {
+            //         rel: 'preload',
+            //         href: '_nuxt/roboto-regular.f6734f81.woff2',
+            //         as: 'font',
+            //         type: 'font/woff2',
+            //         crossorigin: 'anonymous',
+            //     },
+            //     {
+            //         rel: 'preload',
+            //         href: '_nuxt/roboto-500.b0195382.woff2',
+            //         as: 'font',
+            //         type: 'font/woff2',
+            //         crossorigin: 'anonymous',
+            //     },
+            // ],
+            style: [
+                {
+                    innerHTML: `
+                     /* Document */
+                    html,
+                    body {
+                        position: relative;
+                        overflow-x: hidden;
+                        scroll-behavior: smooth;
+                    }
+
+                    @font-face {
+                        font-family: 'Roboto';
+                        src: url('fonts/roboto-regular.woff2') format('woff2');
+                        font-weight: 400;
+                        font-style: normal;
+                        font-display: block;
+                    }
+                    
+                    @font-face {
+                        font-family: 'Roboto';
+                        src: url('fonts/roboto-500.woff2') format('woff2');
+                        font-weight: 500;
+                        font-style: normal;
+                        font-display: block;
+                    }
+                    `,
+                },
+            ],
+
             // script: [
             //     {
             //         src: 'https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js',
@@ -31,5 +78,8 @@ export default defineNuxtConfig({
             tailwindcss: {},
             autoprefixer: {},
         },
+    },
+    experimental: {
+        payloadExtraction: false,
     },
 })
