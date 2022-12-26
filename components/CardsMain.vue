@@ -1,5 +1,5 @@
 <template>
-    <!-- anchor tag -->
+    <!-- anchor choose website -->
     <span class="anchor" id="Website_wählen"></span>
     <!-- Background-Gradient -->
     <section class="bg-gradient-to-br from-white via-sky-50 to-sky-100">
