@@ -111,7 +111,7 @@
                 </p>
                 <a
                     class="text-sky-600 hover:text-white text-lg font-medium inline-flex items-center border border-sky-600 rounded-full hover:bg-gradient-to-r hover:from-sky-600 hover:to-sky-900 py-3 px-5 mt-7"
-                    href="/#Leistungen"
+                    href="/#Preise"
                     >Unser Hosting
                     <svg class="w-5 ml-2" viewBox="0 0 24 24">
                         <path
