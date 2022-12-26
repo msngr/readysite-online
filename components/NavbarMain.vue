@@ -1,6 +1,6 @@
 <template>
     <nav
-        class="z-40 fixed bg-sky-50 w-full max-w-5xl mx-auto flex flex-wrap items-center justify-between px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 shadow-md"
+        class="navbar z-40 fixed bg-sky-50 w-full max-w-5xl mx-auto flex flex-wrap items-center justify-between px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 shadow-md"
     >
         <!-- Logo and Menu Container -->
         <div
@@ -125,4 +125,12 @@ const showMenu = ref(false)
 const toggleNavbar = () => {
     showMenu.value = !showMenu.value
 }
+
+onMounted(() => {
+    document.body.addEventListener('click', e => {
+        if (showMenu.value && !e.target.closest('.navbar')) {
+            showMenu.value = false
+        }
+    })
+})
 </script>
