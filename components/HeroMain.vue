@@ -4,7 +4,7 @@
         class="relative bg-gradient-to-tr from-white via-sky-50 to-sky-100 overflow-hidden"
     >
         <!-- Hero Container -->
-        <div class="relative z-20 container mx-auto px-4 pb-20 pt-28 md:pt-36">
+        <div class="relative z-20 container mx-auto px-4 pb-20 pt-28 md:pt-32">
             <!-- World Map Background -->
             <img
                 v-if="isDesktop"

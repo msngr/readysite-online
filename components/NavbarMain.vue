@@ -1,6 +1,6 @@
 <template>
     <nav
-        class="navbar z-40 fixed bg-sky-50 w-full max-w-5xl mx-auto flex flex-wrap items-center justify-between px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 shadow-md"
+        class="navbar z-40 fixed bg-sky-50 w-full max-w-5xl mx-auto flex flex-wrap items-center justify-between px-4 sm:px-6 md:px-8 py-3 sm:py-4 shadow-md"
     >
         <!-- Logo and Menu Container -->
         <div
@@ -12,7 +12,7 @@
                     title="readysite.online"
                     alt="readysite.online"
                     src="/images/readysite.online-logo.svg"
-                    class="w-60 2xl:w-64 5xl:w-72"
+                    class="w-60 2xl:w-64"
                     width="288"
                     height="46"
                 />
@@ -78,7 +78,7 @@
                     <a
                         href="https://www.facebook.com/"
                         title="readysite.online auf Facebook besuchen"
-                        class="z-50 absolute left-16 top-[14.55rem] sm:left-[4.5rem] sm:top-[14.8rem] md:left-20 md:top-[15.05rem] xl:left-auto xl:right-[17.325rem] xl:top-[1.7275rem] 2xl:right-[18.6rem] 2xl:top-[1.8575rem] 5xl:right-[25.625rem] 5xl:top-[1.9375rem]"
+                        class="z-50 absolute left-16 top-[14.55rem] sm:left-[4.5rem] sm:top-[14.8rem] md:left-20 md:top-[15.05rem] xl:left-auto xl:right-[17.325rem] xl:top-[1.5275rem] 2xl:right-[18.6rem] 2xl:top-[1.6575rem] 5xl:right-[25.625rem] 5xl:top-[1.6375rem]"
                     >
                         <svg
                             v-if="link.name === 'Blog'"
