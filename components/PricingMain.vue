@@ -185,17 +185,16 @@
                         Reverse-Charge-Verfahren zum Einsatz kommen, so sind
                         dieselben Preise als Nettopreise zu verstehen.
                     </li>
+                </ul>
 
-                    <p class="font-medium pt-4">
-                        <sup>2</sup> Bitte bestätigen:
-                    </p>
-
-                    <div class="flex pt-2">
+                <p class="font-medium pt-4"><sup>2</sup> Bitte bestätigen:</p>
+                <ul class="py-4 space-y-2 ml-3">
+                    <li class="flex">
                         <input
                             id="checkbox1"
                             type="checkbox"
                             value=""
-                            class="w-4 h-4 xl:min-w-[1rem]"
+                            class="w-4 h-4 xl:min-w-[1rem] mt-0.5"
                             style="accent-color: #0284c7"
                         />
                         <label for="checkbox1" class="ml-2"
@@ -218,13 +217,13 @@
                             </a>
                             zu.</label
                         >
-                    </div>
-                    <div class="flex pt-2">
+                    </li>
+                    <li class="flex">
                         <input
                             id="checkbox2"
                             type="checkbox"
                             value=""
-                            class="w-4 h-4 xl:min-w-[1rem]"
+                            class="w-4 h-4 xl:min-w-[1rem] mt-0.5"
                             style="accent-color: #0284c7"
                         />
                         <label for="checkbox2" class="ml-2"
@@ -233,7 +232,7 @@
                             begonnen wird. Mir ist bekannt, dass mit Beginn der
                             Ausführung mein Widerrufsrecht erlischt.</label
                         >
-                    </div>
+                    </li>
                 </ul>
             </div>
         </div>
