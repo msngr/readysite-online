@@ -41,7 +41,7 @@
                     class="p-4 md:w-1/3 flex flex-col text-center items-center shadow-sm rounded-full"
                 >
                     <p class="text-xl font-medium text-gray-900">Ihr Problem</p>
-                    <p class="text-lg mt-2 text-gray-500">
+                    <p class="text-lg mt-2 text-gray-600">
                         Das Entwickeln einer Website ist zeitspielig und
                         kostenintensiv.
                     </p>
@@ -52,7 +52,7 @@
                     <h2 class="text-xl font-medium text-gray-900">
                         Unsere Lösung
                     </h2>
-                    <h2 class="text-lg mt-2 text-gray-500">
+                    <h2 class="text-lg mt-2 text-gray-600">
                         Die Verwendung fertiger Website-Vorlagen von
                         readysite.online.
                     </h2>
@@ -63,7 +63,7 @@
                     <p class="text-xl font-medium text-gray-900">
                         Individuelle Änderungen
                     </p>
-                    <p class="text-lg mt-2 text-gray-500">
+                    <p class="text-lg mt-2 text-gray-600">
                         Klein starten und bei Bedarf erweitern, mit festem
                         Ansprechpartner.
                     </p>
