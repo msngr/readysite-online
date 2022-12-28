@@ -65,28 +65,24 @@ onMounted(() => {
 const faq = [
     {
         id: '1',
-        question: 'Lorep Ipsum?',
-        answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nisl nisl aliquet nisl, nec aliquet nisl nisl sit amet nisl. Sed euismod, nisl nec ultricies lacinia, nisl nisl aliquet nisl, nec aliquet nisl nisl sit amet nisl.',
+        question:
+            'Gibt es auch andere Zahlungsmöglichkeiten neben PayPal und Kreditkarte?',
+        answer: 'Sie können auch als Gast mit PayPal bezahlen, falls Sie kein Konto eröffnen möchten. Außerdem können Sie auch per (Dauer-)Überweisung bezahlen. Bitte kontaktieren Sie uns in diesem Fall, damit wir Ihnen die Bankverbindung mitteilen können.',
     },
     {
         id: '2',
-        question: 'Lorep Ipsum2?',
-        answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nisl nisl aliquet nisl, nec aliquet nisl nisl sit amet nisl. Sed euismod, nisl nec ultricies lacinia, nisl nisl aliquet nisl, nec aliquet nisl nisl sit amet nisl.',
+        question: 'Welche Inhalte soll ich Ihnen zukommen lassen und wie?',
+        answer: 'Um aus einer Website-Vorlage eine für Sie angepasste Website zu machen, benötigen wir Ihre Texte und Bilder. Diese tauschen wir dann mit denen aus der Vorlage aus. Falls Sie bestimmte Abschnitte in der Website-Vorlage nicht benötigen, entfernen wir sie. Sie können uns Ihre Inhalte und Mitteilungen per E-Mail oder WhatsApp (auch gerne Sprachnachrichten) zukommen lassen. Unter diesem Abschnitt finden Sie die Kontaktmöglichkeiten.',
     },
     {
         id: '3',
-        question: 'Lorep Ipsum3?',
-        answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nisl nisl aliquet nisl, nec aliquet nisl nisl sit amet nisl. Sed euismod, nisl nec ultricies lacinia, nisl nisl aliquet nisl, nec aliquet nisl nisl sit amet nisl.',
+        question: 'Kann ich die Inhalte auf meiner Website selbst ändern?',
+        answer: 'Ja, wir bieten Ihnen eine einfache und intuitive Benutzeroberfläche, mit der Sie Ihre Website selbst verwalten können. Sie können Texte, Bilder, Links und Dokumente ändern, sowie auch neue einfügen.',
     },
     {
         id: '4',
-        question: 'Lorep Ipsum4?',
-        answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nisl nisl aliquet nisl, nec aliquet nisl nisl sit amet nisl. Sed euismod, nisl nec ultricies lacinia, nisl nisl aliquet nisl, nec aliquet nisl nisl sit amet nisl.',
-    },
-    {
-        id: '5',
-        question: 'Lorep Ipsum5?',
-        answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nisl nisl aliquet nisl, nec aliquet nisl nisl sit amet nisl. Sed euismod, nisl nec ultricies lacinia, nisl nisl aliquet nisl, nec aliquet nisl nisl sit amet nisl.',
+        question: 'Können Zusatzkosten entstehen?',
+        answer: 'Nein, Sie erwerben eine fertige Website, die Sie selbst verwalten können und/oder einen Hosting-Service, der jährlich abgerechnet wird und alles beinhaltet, damit Ihre Website technisch und rechtlich sicher online bleibt. Generell müssen Sie sich aber für ein Hosting entscheiden, ob bei uns oder einem anderen Anbieter, da das reine Erwerben einer Website, diese nicht online verfügbar macht. Individuelle Wünsche und Änderungen werden nach Aufwand berechnet.',
     },
 ]
 </script>
