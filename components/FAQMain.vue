@@ -56,7 +56,7 @@ onMounted(() => {
             )
             const icon = button.querySelector('[data-accordion-icon]')
 
-            target.classList.toggle('max-h-32')
+            target.classList.toggle('max-h-96')
             icon.classList.toggle('rotate-180')
         })
     })
