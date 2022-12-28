@@ -181,9 +181,10 @@
                         Rechnung ausgewiesen wird.
                     </li>
                     <li>
-                        Sollte keine Umsatzsteuer vorgeschrieben sein oder das
-                        Reverse-Charge-Verfahren zum Einsatz kommen, so sind
-                        dieselben Preise als Nettopreise zu verstehen.
+                        Sollte keine Umsatzsteuer vorgeschrieben sein
+                        (Drittland) oder das Reverse-Charge-Verfahren zum
+                        Einsatz kommen (EU-Ausland), so sind dieselben Preise
+                        als Nettopreise zu verstehen.
                     </li>
                 </ul>
 
