@@ -9,6 +9,8 @@
         <CardsMain />
         <!-- Pricing -->
         <PricingMain />
+        <!-- FAQ -->
+        <FAQMain />
     </div>
 </template>
 
