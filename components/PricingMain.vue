@@ -171,7 +171,7 @@
                 </div>
             </div>
             <div
-                class="shadow-md rounded max-w-2xl px-5 2xl:mx-8 5xl:mx-14 my-8"
+                class="shadow-md rounded max-w-2xl px-5 2xl:mx-8 5xl:mx-14 mt-8"
             >
                 <p class="font-medium text-gray-900">
                     <sup>1</sup> Ergänzende Hinweise:
