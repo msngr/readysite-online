@@ -173,8 +173,10 @@
             <div
                 class="shadow-md rounded max-w-2xl px-5 2xl:mx-8 5xl:mx-14 my-8"
             >
-                <p class="font-medium"><sup>1</sup> Ergänzende Hinweise:</p>
-                <ul class="py-4 space-y-2 ml-3">
+                <p class="font-medium text-gray-900">
+                    <sup>1</sup> Ergänzende Hinweise:
+                </p>
+                <ul class="text-gray-700 py-4 space-y-2 ml-3">
                     <li>
                         Alle Preise sind Endpreise und enthalten die gesetzlich
                         vorgeschriebene Umsatzsteuer, die Ihnen auf Ihrer
@@ -188,8 +190,10 @@
                     </li>
                 </ul>
 
-                <p class="font-medium pt-4"><sup>2</sup> Bitte bestätigen:</p>
-                <ul class="py-4 space-y-2 ml-3">
+                <p class="font-medium text-gray-900 pt-4">
+                    <sup>2</sup> Bitte bestätigen:
+                </p>
+                <ul class="text-gray-700 py-4 space-y-2 ml-3">
                     <li class="flex">
                         <input
                             id="checkbox1"
