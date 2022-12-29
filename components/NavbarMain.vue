@@ -1,6 +1,6 @@
 <template>
     <nav
-        class="navbar z-40 fixed bg-sky-50 w-full max-w-5xl mx-auto flex flex-wrap items-center justify-between px-4 sm:px-6 md:px-8 py-3 sm:py-4 shadow-xl"
+        class="navbar z-40 fixed bg-sky-50 w-full max-w-5xl mx-auto flex flex-wrap items-center justify-between shadow-xl border-b-2 border-sky-100 px-4 sm:px-6 md:px-8 py-3 sm:py-4"
     >
         <!-- Logo and Menu Container -->
         <div
