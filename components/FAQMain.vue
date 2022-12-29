@@ -3,7 +3,7 @@
     <span class="anchor !-top-12 md:!top-0" id="Fragen"></span>
     <section class="bg-gradient-to-br from-white via-sky-50 to-sky-100 pt-8">
         <div
-            class="container mx-auto a:px-2 i:px-4 xl:px-10 2xl:px-20 5xl:px-32 pt-10 md:pt-28"
+            class="container mx-auto a:px-2 i:px-4 xl:px-10 2xl:px-20 5xl:px-56 pt-10 md:pt-28"
         >
             <div v-for="item in faq">
                 <h3 :id="'accordion-heading-' + item.id">
@@ -67,22 +67,22 @@ const faq = [
         id: '1',
         question:
             'Gibt es auch andere Zahlungsmöglichkeiten neben PayPal und Kreditkarte?',
-        answer: 'Sie können auch als Gast mit PayPal bezahlen, falls Sie kein Konto eröffnen möchten. Außerdem können Sie auch per (Dauer-)Überweisung bezahlen. Bitte kontaktieren Sie uns in diesem Fall, damit wir Ihnen die Bankverbindung mitteilen können.',
+        answer: 'Sie können auch als Gast mit PayPal bezahlen, falls Sie kein Konto eröffnen möchten. Außerdem können Sie per Dauer-/Überweisung bezahlen. Bitte kontaktieren Sie uns in diesem Fall, damit wir Ihnen die Bankverbindung mitteilen können.',
     },
     {
         id: '2',
         question: 'Welche Inhalte soll ich Ihnen zukommen lassen und wie?',
-        answer: 'Um aus einer Website-Vorlage eine für Sie angepasste Website zu machen, benötigen wir Ihre Texte und Bilder. Diese tauschen wir dann mit denen aus der Vorlage aus. Falls Sie bestimmte Abschnitte in der Website-Vorlage nicht benötigen, entfernen wir sie. Sie können uns Ihre Inhalte und Mitteilungen per E-Mail oder WhatsApp (auch gerne Sprachnachrichten) zukommen lassen. Unter diesem Abschnitt finden Sie die Kontaktmöglichkeiten.',
+        answer: 'Um aus einer Website-Vorlage eine für Sie angepasste Website zu machen, benötigen wir Ihre Texte und Bilder. Diese tauschen wir dann mit denen aus der Vorlage aus. Falls Sie bestimmte Abschnitte in der Website-Vorlage nicht benötigen, entfernen wir diese. Sie können uns Ihre Inhalte und Mitteilungen per E-Mail oder WhatsApp (auch gerne Sprachnachrichten) zukommen lassen. Im nachfolgenden Abschnitt finden Sie die Kontaktmöglichkeiten.',
     },
     {
         id: '3',
         question: 'Kann ich die Inhalte auf meiner Website selbst ändern?',
-        answer: 'Ja, wir bieten Ihnen eine einfache und intuitive Benutzeroberfläche, mit der Sie Ihre Website selbst verwalten können. Sie können Texte, Bilder, Links und Dokumente ändern, sowie auch neue einfügen.',
+        answer: 'Ja, wir bieten Ihnen eine einfache und intuitive Benutzeroberfläche, mit der Sie Ihre Website selbst verwalten können. Mit diesem kleinen CMS für statische Websites können Sie Texte, Bilder, Links und Dokumente ändern, sowie auch neue einfügen.',
     },
     {
         id: '4',
         question: 'Können Zusatzkosten entstehen?',
-        answer: 'Nein, Sie erwerben eine fertige Website, die Sie selbst verwalten können und/oder einen Hosting-Service, der jährlich abgerechnet wird und alles beinhaltet, damit Ihre Website technisch und rechtlich sicher online bleibt. Generell müssen Sie sich aber für ein Hosting entscheiden, ob bei uns oder einem anderen Anbieter, da das reine Erwerben einer Website, diese nicht online verfügbar macht. Individuelle Wünsche und Änderungen werden nach Aufwand berechnet.',
+        answer: 'Nein, Sie erwerben eine fertige Website, die Sie selbst verwalten können und/oder einen Hosting-Service, der jährlich abgerechnet wird und alles beinhaltet, damit Ihre Website technisch und rechtlich sicher online bleibt. Generell müssen Sie sich aber für ein Hosting entscheiden, ob bei uns oder einem anderen Anbieter, da das reine Erwerben einer Website, diese nicht online verfügbar macht. Individuelle Wünsche und Änderungen werden nach Aufwand berechnet und immer vorher mit Ihnen abgesprochen.',
     },
 ]
 </script>
