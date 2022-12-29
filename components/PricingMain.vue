@@ -4,7 +4,7 @@
     <!-- Background-Gradient -->
     <section class="bg-gradient-to-tr from-white via-sky-50 to-sky-100">
         <div
-            class="container mx-auto a:px-2 i:px-4 xl:px-10 2xl:px-20 5xl:px-32 pt-10 md:pt-28"
+            class="container mx-auto a:px-2 i:px-4 xl:px-10 2xl:px-20 5xl:px-44 pt-10 md:pt-28"
         >
             <div class="xl:items-center xl:flex 5xl:ml-10">
                 <div
