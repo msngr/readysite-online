@@ -7,7 +7,7 @@
             class="w-full relative flex justify-between xl:w-auto xl:static xl:block xl:justify-start"
         >
             <!-- Logo -->
-            <a href="/">
+            <NuxtLink href="/">
                 <img
                     title="readysite.online"
                     alt="readysite.online"
@@ -16,7 +16,7 @@
                     width="288"
                     height="46"
                 />
-            </a>
+            </NuxtLink>
             <div class="xl:hidden flex">
                 <!-- Language Button -->
                 <LanguageButton />
@@ -75,7 +75,7 @@
                         </span>
                     </a>
                     <!-- Facebook SVG -->
-                    <a
+                    <NuxtLink
                         href="https://www.facebook.com/"
                         title="readysite.online auf Facebook besuchen"
                         class="z-50 absolute left-16 top-[14.55rem] sm:left-[4.5rem] sm:top-[14.8rem] md:left-20 md:top-[15.05rem] xl:left-auto xl:right-[17.325rem] xl:top-[1.5275rem] 2xl:right-[18.6rem] 2xl:top-[1.6575rem] 5xl:right-[25.625rem] 5xl:top-[1.6375rem]"
@@ -91,7 +91,7 @@
                                 d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"
                             />
                         </svg>
-                    </a>
+                    </NuxtLink>
                 </li>
             </ul>
         </div>
@@ -99,18 +99,21 @@
 </template>
 
 <script setup>
+const config = useRuntimeConfig()
+const base = config.app.baseURL
+
 const links = [
     {
         name: 'Website wählen',
-        to: '/#Website_wählen',
+        to: `${base}#Website_wählen`,
         style: 'font-medium text-gradient hover:!text-transparent',
     },
-    { name: 'Preise', to: '/#Preise' },
-    { name: 'Fragen', to: '/#Fragen' },
-    { name: 'Kontakt', to: '/#Kontakt' },
+    { name: 'Preise', to: `${base}#Preise` },
+    { name: 'Fragen', to: `${base}#Fragen` },
+    { name: 'Kontakt', to: `${base}#Kontakt` },
     {
         name: 'Blog',
-        to: '/blog',
+        to: `${base}blog`,
         style: 'xl:!ml-32 2xl:!ml-48 5xl:!ml-64 group !shadow-none',
     },
     {

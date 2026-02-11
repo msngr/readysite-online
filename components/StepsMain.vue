@@ -28,7 +28,7 @@
                     Wählen Sie eine unserer fertigen Vorlagen aus und bezahlen
                     bequem per PayPal oder Kreditkarte.
                 </h3>
-                <a
+                <NuxtLink
                     class="text-white text-lg font-medium inline-flex items-center shadow-md bg-gradient-to-r from-sky-500 to-sky-700 rounded-full hover:from-sky-600 hover:to-sky-900 transition py-3 px-5 mt-7"
                     href="/#Website_wählen"
                     >Website wählen
@@ -41,7 +41,7 @@
                             d="M12 3.97C7.59 3.97 3.97 7.59 3.97 12C3.97 16.41 7.59 20.03 12 20.03C16.41 20.03 20.03 16.41 20.03 12C20.03 7.59 16.41 3.97 12 3.97M12 2C17.54 2 22 6.46 22 12C22 17.54 17.54 22 12 22C6.46 22 2 17.54 2 12C2 6.46 6.46 2 12 2M13 10.46H16L12 6.5L8 10.46H11V17.5H13"
                         />
                     </svg>
-                </a>
+                </NuxtLink>
             </div>
         </div>
         <!-- Step 2 -->
@@ -70,7 +70,7 @@
                     Senden Sie uns Ihre Bilder und Texte zu. Die einmalige
                     Einpflege Ihrer Inhalte ist im Preis inbegriffen.
                 </p>
-                <a
+                <NuxtLink
                     class="text-sky-600 hover:text-white text-lg font-medium inline-flex items-center border border-sky-600 rounded-full hover:bg-gradient-to-r hover:from-sky-600 hover:to-sky-900 py-3 px-5 mt-7"
                     href="/#Kontakt"
                     >Kontakt
@@ -80,7 +80,7 @@
                             d="M17 18H21V16H17V14L14 17L17 20V18M11 4C8.8 4 7 5.8 7 8S8.8 12 11 12 15 10.2 15 8 13.2 4 11 4M11 6C12.1 6 13 6.9 13 8S12.1 10 11 10 9 9.1 9 8 9.9 6 11 6M11 13C8.3 13 3 14.3 3 17V20H12.5C12.2 19.4 12.1 18.8 12 18.1H4.9V17C4.9 16.4 8 14.9 11 14.9C11.5 14.9 12 15 12.5 15C12.8 14.4 13.1 13.8 13.6 13.3C12.6 13.1 11.7 13 11 13"
                         />
                     </svg>
-                </a>
+                </NuxtLink>
             </div>
         </div>
         <!-- Step 3 -->
@@ -109,7 +109,7 @@
                     Bringen Sie Ihre Website selbst online oder wählen Sie
                     unseren Hosting- und Betreuungsservice.
                 </p>
-                <a
+                <NuxtLink
                     class="text-sky-600 hover:text-white text-lg font-medium inline-flex items-center border border-sky-600 rounded-full hover:bg-gradient-to-r hover:from-sky-600 hover:to-sky-900 py-3 px-5 mt-7"
                     href="/#Preise"
                     >Unser Hosting
@@ -119,7 +119,7 @@
                             d="M4,1H20A1,1 0 0,1 21,2V6A1,1 0 0,1 20,7H4A1,1 0 0,1 3,6V2A1,1 0 0,1 4,1M4,9H20A1,1 0 0,1 21,10V14A1,1 0 0,1 20,15H4A1,1 0 0,1 3,14V10A1,1 0 0,1 4,9M4,17H20A1,1 0 0,1 21,18V22A1,1 0 0,1 20,23H4A1,1 0 0,1 3,22V18A1,1 0 0,1 4,17M9,5H10V3H9V5M9,13H10V11H9V13M9,21H10V19H9V21M5,3V5H7V3H5M5,11V13H7V11H5M5,19V21H7V19H5Z"
                         />
                     </svg>
-                </a>
+                </NuxtLink>
             </div>
         </div>
     </div>

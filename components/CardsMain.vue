@@ -86,14 +86,13 @@
 <script setup>
 
 const config = useRuntimeConfig()
-
 const base = config.app.baseURL
 
 const templates = [
     {
         name: 'Portfoliowebsite',
         description: 'Privatperson, Einzelunternehmer, Visitenkarte',
-        url: '#',
+        url: `${base}#`,
         alt: 'website-vorlage',
         imageSmallWebp: `${base}images/templates/dummy-template-192.webp`,
         imageSmall: `${base}images/templates/dummy-template-192.jpg`,
@@ -103,7 +102,7 @@ const templates = [
     {
         name: 'Landingpage',
         description: 'Marketing, Kundenakquise, Produktplatzierung ',
-        url: '#',
+        url: `${base}#`,
         alt: 'website-vorlage',
         imageSmallWebp: `${base}images/templates/dummy-template-192.webp`,
         imageSmall: `${base}images/templates/dummy-template-192.jpg`,
@@ -113,7 +112,7 @@ const templates = [
     {
         name: 'Eventwebsite',
         description: 'Veranstaltungen, Hochzeit, Urlaub, Geburtstag',
-        url: '#',
+        url: `${base}#`,
         alt: 'website-vorlage',
         imageSmallWebp: `${base}images/templates/dummy-template-192.webp`,
         imageSmall: `${base}images/templates/dummy-template-192.jpg`,
@@ -123,7 +122,7 @@ const templates = [
     {
         name: 'Gesundheitsberufe',
         description: 'Praxis, Ärzte, Physiotherapie, Heilpraktiker',
-        url: '#',
+        url: `${base}#`,
         alt: 'website-vorlage',
         imageSmallWebp: `${base}images/templates/dummy-template-192.webp`,
         imageSmall: `${base}images/templates/dummy-template-192.jpg`,
@@ -133,7 +132,7 @@ const templates = [
     {
         name: 'Handwerkerberufe',
         description: 'Mechaniker, Dachdecker, Fliesenleger',
-        url: '#',
+        url: `${base}#`,
         alt: 'website-vorlage',
         imageSmallWebp: `${base}images/templates/dummy-template-192.webp`,
         imageSmall: `${base}images/templates/dummy-template-192.jpg`,
@@ -143,7 +142,7 @@ const templates = [
     {
         name: 'Business',
         description: 'Metallindustrie, Bauindustrie',
-        url: '#',
+        url: `${base}#`,
         alt: 'website-vorlage',
         imageSmallWebp: `${base}images/templates/dummy-template-192.webp`,
         imageSmall: `${base}images/templates/dummy-template-192.jpg`,

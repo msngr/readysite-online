@@ -27,10 +27,10 @@
                         <br />
                         <p>
                             Für spezielle Anfragen, Beratung oder Anpassungen
-                            <a
+                            <NuxtLink
                                 href="#Kontakt"
                                 class="inline text-sky-600 hover:underline"
-                                >kontaktieren</a
+                                >kontaktieren</NuxtLink
                             >
                             Sie uns. Wir berechnen Ihnen gerne ein individuelles
                             Angebot, je nach Aufwand.
@@ -71,11 +71,11 @@
                                     Einmalige Zahlung
                                 </p>
 
-                                <a
+                                <NuxtLink
                                     class="text-white text-lg font-medium inline-flex items-center shadow-md bg-gradient-to-r from-sky-500 to-sky-700 rounded-full hover:from-sky-600 hover:to-sky-900 transition py-3 px-5 mt-7 -ml-1.5"
                                     href="/#Website_wählen"
                                     >Jetzt bestellen<sup>2</sup>
-                                </a>
+                                </NuxtLink>
                             </div>
 
                             <hr class="shadow-sm" />
@@ -133,11 +133,11 @@
                                     Jährliche Zahlung
                                 </p>
 
-                                <a
+                                <NuxtLink
                                     class="text-white text-lg font-medium inline-flex items-center shadow-md bg-gradient-to-r from-sky-500 to-sky-700 rounded-full hover:from-sky-600 hover:to-sky-900 transition py-3 px-5 mt-7 -ml-1.5"
                                     href="/#Website_wählen"
                                     >Jetzt bestellen<sup>2</sup>
-                                </a>
+                                </NuxtLink>
                             </div>
 
                             <hr class="shadow-sm" />
@@ -205,21 +205,21 @@
                         <label for="checkbox1" class="ml-2"
                             >Ich habe die obigen ergänzenden Hinweise zur
                             Kenntnis genommen und stimme den
-                            <a
+                            <NuxtLink
                                 href="#"
                                 class="inline text-sky-600 hover:underline"
-                                >AGB</a
+                                >AGB</NuxtLink
                             >, der
-                            <a
+                            <NuxtLink
                                 href="#"
                                 class="inline text-sky-600 hover:underline"
-                                >Datenschutzerklärung</a
+                                >Datenschutzerklärung</NuxtLink
                             >, sowie der
-                            <a
+                            <NuxtLink
                                 href="#"
                                 class="inline text-sky-600 hover:underline"
                                 >Widerrufsbelehrung
-                            </a>
+                            </NuxtLink>
                             zu.</label
                         >
                     </li>
