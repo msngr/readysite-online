@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const baseURL = process.env.GITHUB_ACTIONS === 'true' ? '/readysite-online/' : '/'
+
 export default defineNuxtConfig({
     app: {
+        baseURL: baseURL,
+        buildAssetsDir: 'static_dist/',
         head: {
             htmlAttrs: {
                 // Todo: Add browser locale after internalization
@@ -45,7 +49,7 @@ export default defineNuxtConfig({
 
                     @font-face {
                         font-family: 'Roboto';
-                        src: url('fonts/roboto-regular.woff2') format('woff2');
+                        src: url('${baseURL}fonts/roboto-regular.woff2') format('woff2');
                         font-weight: 400;
                         font-style: normal;
                         font-display: block;
@@ -53,7 +57,7 @@ export default defineNuxtConfig({
                     
                     @font-face {
                         font-family: 'Roboto';
-                        src: url('fonts/roboto-500.woff2') format('woff2');
+                        src: url('${baseURL}fonts/roboto-500.woff2') format('woff2');
                         font-weight: 500;
                         font-style: normal;
                         font-display: block;
@@ -82,4 +86,7 @@ export default defineNuxtConfig({
     experimental: {
         payloadExtraction: false,
     },
+    nitro: {
+        baseURL: '/readysite-online/'
+  }
 })

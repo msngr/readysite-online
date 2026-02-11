@@ -33,7 +33,7 @@
                                 >kontaktieren</a
                             >
                             Sie uns. Wir berechnen Ihnen gerne ein individuelles
-                            Angebot, je nach Zeitaufwand.
+                            Angebot, je nach Aufwand.
                         </p>
                     </div>
                 </div>

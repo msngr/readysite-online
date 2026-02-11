@@ -11,7 +11,7 @@
                 <img
                     title="readysite.online"
                     alt="readysite.online"
-                    src="/images/readysite.online-logo.svg"
+                    src="~/assets/images/readysite.online-logo.svg"
                     class="w-60 2xl:w-64"
                     width="288"
                     height="46"

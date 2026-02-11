@@ -12,7 +12,6 @@
         <!-- FAQ -->
         <FAQMain />
         <!-- Contact -->
-        <ContactMain />
     </div>
 </template>
 

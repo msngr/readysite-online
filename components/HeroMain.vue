@@ -11,7 +11,7 @@
                 class="hidden xl:block xl:absolute -z-10 translate-x-[-8%] translate-y-[29%] 2xl:translate-x-[-2%] 5xl:translate-x-[15%] 5xl:translate-y-[20%] scale-75"
                 title="Wir operieren weltweit!"
                 alt="World Map Background"
-                src="/images/worldmap.svg"
+                src="~/assets/images/worldmap.svg"
                 width="1440"
                 height="560"
             />
